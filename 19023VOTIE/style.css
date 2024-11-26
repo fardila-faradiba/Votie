@@ -1,0 +1,116 @@
+
+    /* General Styles */
+    body {
+        font-family: 'Helvetica', sans-serif;
+        background-color: #f4f7fb; /* Light background color */
+        color: #333;
+        line-height: 1.6;
+    }
+    
+    h1, h2 {
+        color: #2c3e50; /* Dark blue for headings */
+        font-weight: 600;
+    }
+
+    p {
+        font-size: 1.1rem;
+        color: #7f8c8d; /* Lighter text for paragraphs */
+        margin-bottom: 20px;
+    }
+
+    a {
+        color: #2980b9; /* Blue links */
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+
+    .container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 40px 15px;
+    }
+
+    /* Navbar Styling */
+    .navbar {
+        background-color: #34495e; /* Dark blue/navy background for navbar */
+        padding: 10px 0;
+    }
+
+    .navbar-brand {
+        font-size: 1.5rem;
+        font-weight: bold;
+        color: #ecf0f1; /* Light color for brand */
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        color: #ecf0f1;
+        font-size: 1.1rem;
+        padding: 10px 15px;
+    }
+
+    .navbar-nav .nav-item .nav-link:hover {
+        color: #2980b9; /* Hover color */
+        background-color: rgba(41, 128, 185, 0.1); /* Blue background on hover */
+        border-radius: 5px;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        background-color: #2980b9;
+        color: white;
+        padding: 40px 20px;
+        border-radius: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 2.5rem;
+        margin-bottom: 20px;
+    }
+
+    .hero-section p {
+        font-size: 1.2rem;
+        margin-bottom: 30px;
+    }
+
+    .btn-outline-primary {
+        border: 2px solid #2980b9;
+        color: #2980b9;
+        font-size: 1.1rem;
+        padding: 12px 20px;
+        border-radius: 25px;
+        transition: background-color 0.3s ease;
+    }
+
+    .btn-outline-primary:hover {
+        background-color: #2980b9;
+        color: white;
+    }
+
+    /* Section Spacing */
+    .my-3 {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+
+    /* Footer */
+    .footer {
+        background-color: #34495e;
+        color: #ecf0f1;
+        padding: 20px;
+        text-align: center;
+        margin-top: 30px;
+    }
+
+    .footer a {
+        color: #ecf0f1;
+        text-decoration: none;
+    }
+
+    .footer a:hover {
+        color: #2980b9;
+    }
